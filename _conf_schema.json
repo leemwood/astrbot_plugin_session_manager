@@ -1,0 +1,24 @@
+{
+  "admin_user_ids": {
+    "description": "管理员用户 ID 列表（可执行删除/发送等操作）",
+    "type": "list",
+    "hint": "输入用户 ID，用逗号分隔。如: 123456,789012",
+    "default": [],
+    "items": {
+      "type": "string",
+      "description": "用户 ID"
+    }
+  },
+  "max_messages_per_page": {
+    "description": "每次查看消息时返回的最大条数",
+    "type": "int",
+    "hint": "1-50",
+    "default": 15
+  },
+  "list_page_size": {
+    "description": "列出会话时每页显示的会话数",
+    "type": "int",
+    "hint": "5-50",
+    "default": 20
+  }
+}

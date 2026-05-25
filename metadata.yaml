@@ -1,0 +1,12 @@
+name: astrbot_plugin_session_manager
+author: Qwen-Code
+version: 1.0.0
+desc: 让 LLM 能够自主管理 AstrBot 会话。支持列出/查看会话、删除会话（需管理员）、发送消息到会话（需管理员）。
+repo: https://github.com/qwen-code/astrbot_plugin_session_manager
+astrbot_version: ">=4.16,<5"
+support_platforms:
+  - aiocqhttp
+  - telegram
+  - qq_official
+  - lark
+  - wecom
